@@ -3,13 +3,13 @@ import CountUp from "react-countup";
 
 const NumberCounter = () => {
   return (
-    <div className="bg-secondary text-white py-12">
+    <div className="bg-gray-800 text-white py-12">
       <div className="container grid grid-cols-2 md:grid-cols-4 gap-8">
         <div className="flex flex-col items-center justify-center">
           <p className="text-3xl font-semibold">
             <CountUp
               start={0}
-              end={898}
+              end={3}
               duration={3}
               enableScrollSpy={true}
               scrollSpyOnce={true}
@@ -17,10 +17,10 @@ const NumberCounter = () => {
           </p>
           <p>Expert tutors</p>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        {/* <div className="flex flex-col items-center justify-center">
           <p className="text-3xl font-semibold">
             <CountUp
-              end={20000}
+              end={2}
               separator=","
               suffix="+"
               duration={3}
@@ -29,11 +29,11 @@ const NumberCounter = () => {
             />
           </p>
           <p>Hours content</p>
-        </div>
+        </div> */}
         <div className="flex flex-col items-center justify-center">
           <p className="text-3xl font-semibold">
             <CountUp
-              end={298}
+              end={5}
               duration={3}
               enableScrollSpy={true}
               scrollSpyOnce={true}
@@ -44,7 +44,7 @@ const NumberCounter = () => {
         <div className="flex flex-col items-center justify-center">
           <p className="text-3xl font-semibold">
             <CountUp
-              end={72878}
+              end={200}
               separator=","
               suffix="+"
               duration={3}

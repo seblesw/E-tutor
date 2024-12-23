@@ -2,18 +2,18 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import { MdComputer } from "react-icons/md";
-import FooterImg from "../../assets/footer.jpg";
+// import FooterImg from "../../assets/footer.jpg";
 
-const FooterBg = {
-  backgroundImage: `url(${FooterImg})`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  backgroundPosition: "bottom center",
-};
+// const FooterBg = {
+//   // backgroundImage: `url(${FooterImg})`,
+//   backgroundRepeat: "no-repeat",
+//   backgroundSize: "cover",
+//   backgroundPosition: "bottom center",
+// };
 
 const Footer = () => {
   return (
-    <div style={FooterBg} className="rounded-t-3xl">
+    <div  className="rounded-t-3xl">
       <div className="bg-primary/5">
         <div className="container">
           <div className="grid md:grid-cols-4 md:gap-4 py-5 border-t-2 border-gray-300/10 text-black">
@@ -133,7 +133,7 @@ const Footer = () => {
             <div className="text-center py-6 border-t-2 border-gray-800/10">
               <span className="text-sm text-black/60">
                 {" "}
-                @copyright 2024 The Coding Journey
+                @copyright 2024  startup company founded by  CEO of Doctor Chalachew Temesgen Jemberie
               </span>
             </div>
           </div>
